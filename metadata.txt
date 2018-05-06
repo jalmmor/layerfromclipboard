@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Layer From Clipboard
+qgisMinimumVersion=3.0
+description=create layer from clipboard data
+version=0.1
+author=Jorge Almaraz
+email=jalmmor@gmail.com
+
+about=This plugin allows you to create a layer of points from the tabulated data of the clipboard. The origin can be a spreadsheet or any other tabulated text
+
+tracker=http://bugs/layerfromclipboard.github.com
+repository=http://layerfromclipboard.github.com
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,vector,clipboard
+
+homepage=http://homepage
+category=Plugins
+icon=icon.svg
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
