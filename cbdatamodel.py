@@ -149,15 +149,15 @@ class CbDataModel(QStandardItemModel):
                 if not converted: raise ConvertError(" ".join((self.tr(u'Can\'t convert to number'), textValue)), r, selected_fields[field])
                 row.append(value)
 
-            if x_field and y_field:
+            if (x_field and y_field ) is not None:
                 textValue = self.item(r, x_field).text()
                 x_coord, converted = converters[2](textValue)  # toDouble
-                if not (converted and x_coord):
+                if not converted or x_coord is None:
                     raise ConvertError(" ".join((self.tr(u'Can\'t convert to double coordinate'), 'x', textValue)), r,
                                                      x_field)
                 textValue = self.item(r, y_field).text()
                 y_coord, converted = converters[2](textValue)  # toDouble
-                if not (converted and y_coord):
+                if not converted or y_coord is None:
                     raise ConvertError(" ".join((self.tr(u'Can\'t convert to double coordinate'), 'y', textValue)), r,
                                                      y_field)
                 row.append((x_coord, y_coord))
