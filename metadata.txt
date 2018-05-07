@@ -14,7 +14,7 @@ version=0.1
 author=Jorge Almaraz
 email=jalmmor@gmail.com
 
-about=This plugin allows you to create a layer of points from the tabulated data of the clipboard. The origin can be a spreadsheet or any other tabulated text
+about=This plugin allows for create a layer of points from the tabulated data of the clipboard. The origin can be a spreadsheet or a tabulated text
 
 tracker=http://bugs/layerfromclipboard.github.com
 repository=http://layerfromclipboard.github.com

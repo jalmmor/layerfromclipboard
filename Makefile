@@ -48,7 +48,7 @@ PY_FILES = \
 
 UI_FILES = layer_from_clipboard_dialog_base.ui
 
-EXTRAS = metadata.txt icon.png
+EXTRAS = metadata.txt icon.svg
 
 EXTRA_DIRS =
 
