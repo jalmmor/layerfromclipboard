@@ -83,7 +83,7 @@ class LayerFromClipboard:
         text,
         callback,
         enabled_flag=True,
-        add_to_menu=True,
+        add_to_menu=False,
         add_to_toolbar=True,
         status_tip=None,
         whats_this=None,
@@ -156,7 +156,7 @@ class LayerFromClipboard:
         icon_path = ':/plugins/layer_from_clipboard/icon.svg'
         self.add_action(
             icon_path,
-            text=self.tr(u''),
+            text=self.tr(u'Paste layer from clipboard'),
             callback=self.run,
             parent=self.iface.mainWindow())
 

@@ -171,10 +171,10 @@
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_3">
            <property name="topMargin">
-            <number>0</number>
+            <number>4</number>
            </property>
            <property name="bottomMargin">
-            <number>0</number>
+            <number>2</number>
            </property>
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -198,7 +198,7 @@
               <widget class="QComboBox" name="cbFieldx">
                <property name="minimumSize">
                 <size>
-                 <width>0</width>
+                 <width>120</width>
                  <height>0</height>
                 </size>
                </property>
@@ -215,7 +215,14 @@
               </widget>
              </item>
              <item>
-              <widget class="QComboBox" name="cbFieldy"/>
+              <widget class="QComboBox" name="cbFieldy">
+               <property name="minimumSize">
+                <size>
+                 <width>120</width>
+                 <height>0</height>
+                </size>
+               </property>
+              </widget>
              </item>
              <item>
               <spacer name="horizontalSpacer_2">
@@ -224,7 +231,7 @@
                </property>
                <property name="sizeHint" stdset="0">
                 <size>
-                 <width>40</width>
+                 <width>38</width>
                  <height>20</height>
                 </size>
                </property>
@@ -334,7 +341,7 @@
   <customwidget>
    <class>QgsProjectionSelectionWidget</class>
    <extends>QWidget</extends>
-   <header>qgis.gui</header>
+   <header>qgsprojectionselectionwidget.h</header>
   </customwidget>
  </customwidgets>
  <resources/>

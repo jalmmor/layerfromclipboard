@@ -9,15 +9,15 @@
 [general]
 name=Layer From Clipboard
 qgisMinimumVersion=3.0
-description=create layer from clipboard data
+description=Create layer from clipboard data
 version=0.1
 author=Jorge Almaraz
 email=jalmmor@gmail.com
 
-about=This plugin allows for create a layer of points from the tabulated data of the clipboard. The origin can be a spreadsheet or a tabulated text
+about=Layerfromclipboard is a plugin that allows users to create a memory layer with the clipboard data. The data can be a delimited text, html table or a spreadsheet.
 
-tracker=http://bugs/layerfromclipboard.github.com
-repository=http://layerfromclipboard.github.com
+tracker=https://github.com/jalmmor/layerfromclipboard/issues
+repository=https://github.com/jalmmor/layerfromclipboard
 # End of mandatory metadata
 
 # Recommended items:
@@ -28,7 +28,7 @@ repository=http://layerfromclipboard.github.com
 # Tags are comma separated with spaces allowed
 tags=python,vector,clipboard
 
-homepage=http://homepage
+homepage=https://github.com/jalmmor/layerfromclipboard
 category=Plugins
 icon=icon.svg
 # experimental flag
