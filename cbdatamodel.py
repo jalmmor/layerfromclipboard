@@ -75,7 +75,7 @@ class CbDataModel(QStandardItemModel):
         for row in data:
             numDat = len(row)
             if numDat < numFields:
-                row.extend([None] * (numFields - len(row)))
+                row.extend([''] * (numFields - len(row)))
             elif numDat > numFields:
                 del row[numFields:]
         self.test_field_types(data)
